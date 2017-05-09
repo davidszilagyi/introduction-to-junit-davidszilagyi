@@ -1,7 +1,6 @@
 package main;
 
 import java.io.*;
-import java.util.ArrayList;
 
 /**
  * Created by david_szilagyi on 2017.05.09..
