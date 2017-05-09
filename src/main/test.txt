@@ -1,0 +1,10 @@
+When you are ready, your job is to cover your code with tests,
+and make an assertion for all the statements in the bulletpoints.
+Whenever you are testing FileWordAnalyzer, be sure to mock out
+the FilePartReader object manually. Here the sense of mocking is
+that we'd only like to test the FileWordAnalyzer in itself,
+and we don't want to take care about the underlying layer's behaviour (FilePartReader),
+since it's already tested in it's own test cases.
+When testing FilePartReader class,
+you can have a test file with which
+you can test the read method.
